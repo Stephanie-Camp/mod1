@@ -1,5 +1,5 @@
 var numero1 = 21;
-var numero2 = 7;
+var numero2 = 8;
 
 var soma = numero1 + numero2;
 console.log(soma);
@@ -10,10 +10,10 @@ console.log(subtracao);
 var multiplicacao = numero1 * numero2;
 console.log(multiplicacao);
 
-var divisao = numero1/numero2;
+var divisao = numero1 / numero2;
 console.log(divisao);
 
-var resto = numero1%numero2;
+var resto = numero1 % numero2;
 console.log(resto);
 
 var nome = "Stephanie";
@@ -25,7 +25,7 @@ console.log(maiorDeIdade);
 
 var peso = 50.5;
 var altura = 1.64;
-var imc = peso/(altura**2);
+var imc = peso / (altura ** 2);
 console.log(imc);
 
 var resultado = soma + subtracao * multiplicacao / divisao;
